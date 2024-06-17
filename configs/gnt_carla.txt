@@ -1,0 +1,52 @@
+### INPUT
+expname = Training/Scene1
+rootdir = ./
+render_stride = 4
+distributed = False
+
+## dataset
+
+## train_dataset = carla_test
+
+# To train using all data sets
+# dataset_weights = [0.7, 0.15, 0.05, 0.1]
+# train_dataset = carla_test+llff+spaces+ibrnet_collected
+
+# Train using carla and spaces
+dataset_weights = [0.8, 0.2]
+train_dataset = carla_test+spaces
+
+# Train using only carla
+#train_dataset = carla_test
+
+eval_dataset = carla_test
+eval_scenes = [TEST_Scene122]
+
+
+### TRAINING
+N_rand = 2048
+lrate_feature = 0.001
+lrate_gnt = 0.0005
+lrate_decay_factor = 0.5
+lrate_decay_steps = 50000
+single_net = True
+#trans_depth = 4
+trans_depth = 8
+### TESTING
+chunk_size =  2000
+
+### RENDERING
+N_importance = 0
+N_samples = 64
+inv_uniform = True
+white_bkgd = False
+
+
+### Apearance Change
+appearance_change = False
+
+### CONSOLE AND TENSORBOARD
+n_iters = 250000
+i_img = 10000
+i_print = 50
+#i_weights = 50
