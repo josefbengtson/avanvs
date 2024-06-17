@@ -30,7 +30,7 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/josefbengtson/avanvs.git
-cd GNT/
+cd avanvs/
 ```
 
 The code is tested with python 3.8, cuda == 11.1, pytorch == 1.10.1. Additionally dependencies are found in the requirements.txt file.
