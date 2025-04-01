@@ -36,7 +36,7 @@ cd avanvs/
 The code is tested with python 3.8, cuda == 11.1, pytorch == 1.10.1. Additionally dependencies are found in the requirements.txt file.
 ## Datasets
 
-The CARLA dataset is split into [training](https://drive.google.com/drive/folders/12S0c6yLqOBa_HKdRKpK8hKfUsr6bfn9E?usp=sharing) and [evaluation](https://drive.google.com/file/d/1k9imjro_ag5WDDLcMmukgqi0CBqQspk5/view?usp=sharing) scenes.
+The CARLA dataset is split into [training](https://drive.google.com/drive/folders/12S0c6yLqOBa_HKdRKpK8hKfUsr6bfn9E?usp=sharing) and [evaluation](https://drive.google.com/drive/folders/1R5PCNADVWIKyEge_emMx-mZBfDcMZPfw?usp=sharing) scenes.
 The datasets must be downloaded to a directory `data/` within the project folder and must follow the below organization. 
 ```bash
 ├──data/
