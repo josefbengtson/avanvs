@@ -63,7 +63,7 @@ python3 train.py --config configs/gnt_carla.txt --n_iters 50000 --i_img 5000 --i
 We start training from this  [GNT checkpoint](https://drive.google.com/file/d/1YvOJXa5eGpKgoMYcxC2ma7prB1n5UwRn/view)
 
 ### Pre-trained Models
-To reuse pretrained models, download this [checkpoint](https://drive.google.com/file/d/1bPVG_rapXu0oQhlbPy0WQdw-ebjAI-LR/view?usp=sharing) and place in chkpts directory. Then proceed to evaluation or rendering. 
+To reuse pretrained models, download this [checkpoint](https://drive.google.com/drive/folders/1EhkXXIWJyUQBJFsRuNjW9-oJvo677mnX?usp=sharing) and place in chkpts directory. Then proceed to evaluation or rendering. 
 
 ### Evaluation
 To compute metrics on validation scenes.
